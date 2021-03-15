@@ -1,0 +1,59 @@
+.image {
+	background-image: url(hotdog.jpg);
+	height: 250px;
+	background-size: 370px;
+}
+
+.welcome {
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.text {
+	text-align: center;
+	border: 1px solid black;
+	width: 300px;
+	height: 330px;
+	margin: 0 auto;
+}
+
+hr.dot {
+	border-top: 1px dotted black;
+}
+
+h4.order {
+	color: grey;
+}
+
+h4.cashier {
+	color: grey;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.again {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.again:hover{
+	background-color: black;
+	color: white;
+}
